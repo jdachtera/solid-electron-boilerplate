@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "es2021",
+    "module": "commonjs",
+    "lib": ["dom"],
+    "declaration": true,
+    "declarationMap": true,
+    "jsx": "preserve",
+    "jsxImportSource": "solid-js",
+    "strict": true,
+    "noUncheckedIndexedAccess": true,
+    "pretty": true,
+    "sourceMap": true,
+    "baseUrl": "./src",
+    "noUnusedLocals": false,
+    "noUnusedParameters": false,
+    "noImplicitReturns": true,
+    "noFallthroughCasesInSwitch": true,
+    "moduleResolution": "node",
+    "esModuleInterop": true,
+    "allowSyntheticDefaultImports": true,
+    "resolveJsonModule": true,
+    "allowJs": true,
+    "outDir": "release/app/dist"
+  },
+  "exclude": [
+    "node_modules/@types/eslint-scope/node_modules/@types/eslint/helpers.d.ts",
+    "node_modules/@types/react/index.d.ts",
+    "test",
+    "release/build",
+    "release/app/dist",
+    ".erb/dll"
+  ]
+}
